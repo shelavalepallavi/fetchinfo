@@ -19,6 +19,7 @@ const UserProvider = ({children}) => {
       setLoading(false)
     })
   }, [])
+
   
   return (
     <UserContext.Provider value={{users, loading, searchTerm, setSearchTerm}}>
